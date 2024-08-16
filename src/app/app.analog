@@ -1,0 +1,11 @@
+<script lang="ts">
+import HeaderComponent from './components/header.analog' with { analog: 'imports' };
+import { RouterOutlet } from '@angular/router'
+
+defineMetadata({ imports: [RouterOutlet] });
+</script>
+
+<template>
+<HeaderComponent />
+<router-outlet></router-outlet>
+</template>

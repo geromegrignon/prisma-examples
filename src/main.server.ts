@@ -7,7 +7,7 @@ import { provideServerContext } from '@analogjs/router/server'
 import { ServerContext } from '@analogjs/router/tokens'
 
 import { config } from './app/app.config.server'
-import { AppComponent } from './app/app.component'
+import { AppComponent } from './app/app.analog'
 
 if (import.meta.env.PROD) {
   enableProdMode()
